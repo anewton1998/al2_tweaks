@@ -1,5 +1,5 @@
 #!/bin/bash
-#sleep 20s
+sleep 20s
 killall conky
 cd "/home/andy/.conky/Gotham"
 conky -c "/home/andy/.conky/Gotham/Gotham" &
