@@ -13,7 +13,7 @@
 # 7. mlocate
 # 8. htop
 
-sudo yum -y install epel-release
+sudo yum install -y https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
 sudo yum -y install i3 dmenu conky conky-manager dconf-editor mlocate htop
 
 # Add Fish repository
@@ -33,7 +33,7 @@ cd ..
 rm -rf fonts
 
 # Copy config files, etc..
-cp -Rv files/* $HOME/
+cp -Rv files/ $HOME/
 
 # Install VimPlug
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
