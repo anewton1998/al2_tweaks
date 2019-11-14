@@ -1,0 +1,72 @@
+background yes
+double_buffer yes
+
+alignment top_left
+
+border_width 1
+default_color white
+default_outline_color white
+default_shade_color white
+draw_borders no
+draw_graph_borders yes
+draw_outline no
+draw_shades no
+
+gap_x 20
+gap_y 40
+no_buffers yes
+out_to_console no
+out_to_stderr no
+extra_newline no
+
+own_window yes
+own_window_type override
+own_window_transparent yes
+own_window_colour 000000
+own_window_argb_visual no
+own_window_argb_value 0
+own_window_hints undecorated,below,sticky,skip_taskbar,skip_pager
+
+#minimum_size 300 210
+stippled_borders 0
+#update_interval 1.0
+uppercase no
+use_spacer none
+
+show_graph_scale no
+show_graph_range no
+
+use_xft yes
+xftalpha 0.1
+xftfont DejaVu Sans Mono:size=12
+color0 white
+color1 EAEAEA
+color2 FFA300
+color3 grey
+
+TEXT
+${color2}new terminal - ${color0}mod+Enter
+${color2}new browser  - ${color0}mod+Shift+Enter
+${color2}kill focused - ${color0}mod+Shift+q
+${color2}dmenu        - ${color0}mod+d
+${hr}
+${color2}focus window left  - ${color0}mod+Ctrl+h or mod+Left
+${color2}focus window down  - ${color0}mod+Ctrl+j or mod+Down
+${color2}focus window up    - ${color0}mod+Ctrl+k or mod+Up
+${color2}focus window right - ${color0}mod+Ctrl+l or mod+Right
+${hr}
+${color2}move window left  - ${color0}mod+Shift+h or mod+Shift+Left
+${color2}move window down  - ${color0}mod+Shift+j or mod+Shift+Down
+${color2}move window up    - ${color0}mod+Shift+k or mod+Shift+Up
+${color2}move window right - ${color0}mod+Shift+l or mod+Shift+Right
+${hr}
+${color2}split horizontal  - ${color0}mod+Minus     or mod+Underscore
+${color2}split vertical    - ${color0}mod+Backslash or mod+Bar
+${color2}fullscreen        - ${color0}mod+f
+${color2}stacking layout   - ${color0}mod+s
+${color2}tabbed layout     - ${color0}mod+w
+${color2}resize mode       - ${color0}mod+r
+${hr}
+${color2}switch workspace     - ${color0}mod+1 to mod+0
+${color2}move to workspace    - ${color0}mod+Shift+1 to mod+Shift+0
+
