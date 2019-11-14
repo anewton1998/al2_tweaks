@@ -33,7 +33,7 @@ cd ..
 rm -rf fonts
 
 # Copy config files, etc..
-cp -Rv files/ $HOME/
+cp -Rv files/. $HOME/
 
 # Install VimPlug
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
