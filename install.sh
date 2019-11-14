@@ -52,7 +52,7 @@ curl https://git.io/fisher --create-dirs -sLo ~/.config/fish/functions/fisher.fi
 fish -c "fisher add oh-my-fish/theme-bobthefish"
 
 # Install sdkman-for-fish
-fish -c "fisher reitzig/sdkman-for-fish"
+fish -c "fisher add reitzig/sdkman-for-fish"
 
 # Use VI keybindings in fish
 fish -c "fish_vi_key_bindings"
